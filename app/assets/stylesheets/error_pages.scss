@@ -3,9 +3,19 @@
 
 html { min-height: 100%; }
 
-.error-404 {
-  background: image-url('peeping-tom.png') no-repeat bottom;
-  background-attachment: fixed;
+.error-404::after {
+  background: image-url('omgsrslydotnet/theowl.gif');
+  background-position: center;
+  background-size: cover;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: .2;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
 }
 
 .error-404,

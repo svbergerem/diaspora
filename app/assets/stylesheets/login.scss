@@ -6,12 +6,26 @@
 
   .logos-asterisk {
     background: image-url('branding/logos/asterisk.png') no-repeat;
-    height: 154px;
-    margin: auto auto 12px;
-    width: 154px;
+    height: 158px;
+    margin: 42px auto 42px;
+    width: 158px;
   }
 
   .block-form {
     max-width: 400px;
   }
+}
+
+.page-sessions.action-new::after {
+  background: image-url('omgsrslydotnet/theowl.gif');
+  background-position: center;
+  background-size: cover;
+  content: '';
+  height: 100%;
+  left: 0;
+  opacity: .2;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
 }
