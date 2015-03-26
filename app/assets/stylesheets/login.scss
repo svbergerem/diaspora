@@ -5,13 +5,28 @@
   padding-top: 25px;
 
   .logos-asterisk {
-    height: 154px;
+    height: 158px;
     margin: auto;
-    margin-bottom: 12px;
-    width: 154px;
+    margin-bottom: 42px;
+    margin-top: 42px;
+    width: 158px;
   }
 
   .block-form {
     max-width: 400px;
   }
+}
+
+.page-sessions.action-new::after {
+  background: image-url('omgsrslydotnet/theowl.gif');
+  background-position: center;
+  background-size: cover;
+  content: '';
+  height: 100%;
+  left: 0;
+  opacity: .2;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
 }

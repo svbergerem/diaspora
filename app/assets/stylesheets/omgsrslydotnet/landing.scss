@@ -1,0 +1,104 @@
+$white: #fff;
+$black: #000;
+$border-color: #ddd;
+$header-background-color: lighten($black, 10%);
+$background-color: #333;
+
+.page-home.action-show {
+  background-color: $background-color;
+  padding-bottom: 100px;
+  padding-top: 50px;
+
+  &,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  textarea,
+  input,
+  *:not(code) {
+    font-family: 'Roboto';
+  }
+
+  h3 {
+    border-bottom: 1px dashed lighten($background-color, 10%);
+    color: $white;
+    margin-top: 100px;
+  }
+
+  .omgsrsly-header {
+    border-bottom: 3px dashed lighten($background-color, 10%);
+    color: $white;
+    font-size: 40px;
+    line-height: 60px;
+    margin-top: 100px;
+  }
+
+  header,
+  footer {
+    display: none;
+  }
+
+  .custom-header {
+    background-color: $header-background-color;
+    border-bottom: 3px solid $border-color;
+    height: 50px;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    vertical-align: center;
+    width: 100%;
+    z-index: 1000;
+
+    .branding {
+      color: $white;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .btn {
+      margin-top: -3px;
+    }
+  }
+
+  .landing-avatar { border-radius: 50%; }
+
+  .user-card,
+  .donation-card {
+    min-height: 120px;
+    padding-top: 20px;
+
+    small {
+      color: darken($white, 40%);
+      display: block;
+      margin-top: 10px;
+    }
+  }
+
+  .user-comment {
+    color: $white;
+    font-size: 16px;
+    font-style: italic;
+  }
+
+  .user-rating {
+    font-size: 24px;
+    margin: 5px 0;
+
+    .entypo-star,
+    .entypo-star-empty {
+      color: $white;
+    }
+  }
+
+  .currency {
+    color: $white;
+    font-size: 24px;
+    margin: 5px 0;
+  }
+
+  .donation-card code { font-size: 14px; }
+}
