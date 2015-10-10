@@ -41,6 +41,10 @@ pre { word-wrap: break-word; }
 
 .tag { word-break: break-all; }
 
+.avatar:not(.large):not(.medium) {
+  border-radius: 50%;
+}
+
 .avatar {
   border-radius: 4px;
 
