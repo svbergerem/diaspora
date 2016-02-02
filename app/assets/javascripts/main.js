@@ -23,12 +23,14 @@
 //= require posix-bracket-expressions
 //= require markdown-it
 //= require markdown-it-diaspora-mention
+//= require markdown-it-emoji
 //= require markdown-it-for-inline
 //= require markdown-it-hashtag
 //= require markdown-it-sanitizer
 //= require markdown-it-sub
 //= require markdown-it-sup
 //= require highlightjs
+//= require emojione
 //= require clear-form
 //= require typeahead.bundle.js
 //= require app/app

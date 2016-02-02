@@ -10,6 +10,7 @@
     "autosize": false,
     "Backbone": false,
     "Bloodhound": false,
+    "emojione": false,
     "gon": false,
     "Handlebars": false,
     "HandlebarsTemplates": false,

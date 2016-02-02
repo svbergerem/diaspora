@@ -657,6 +657,7 @@ GEM
       rails-assets-jquery-fullscreen-plugin (~> 0.5.0)
       rails-assets-jquery.slimscroll (~> 1.3.6)
       rails-assets-jquery.ui (~> 1.11.4)
+    rails-assets-emojione (2.2.6)
     rails-assets-favico.js (0.3.10)
     rails-assets-highlightjs (9.6.0)
     rails-assets-jasmine (2.4.1)
@@ -676,6 +677,7 @@ GEM
     rails-assets-markdown-it--markdown-it-for-inline (0.1.1)
     rails-assets-markdown-it (7.0.0)
     rails-assets-markdown-it-diaspora-mention (1.0.0)
+    rails-assets-markdown-it-emoji (1.2.0)
     rails-assets-markdown-it-hashtag (0.4.0)
     rails-assets-markdown-it-sanitizer (0.4.2)
     rails-assets-markdown-it-sub (1.0.0)
@@ -1000,6 +1002,7 @@ DEPENDENCIES
   rails-assets-blueimp-gallery (= 2.21.3)!
   rails-assets-bootstrap-markdown (= 2.10.0)!
   rails-assets-diaspora_jsxc (= 0.1.5.develop.1)!
+  rails-assets-emojione (= 2.2.6)!
   rails-assets-highlightjs (= 9.6.0)!
   rails-assets-jasmine-ajax (= 3.2.0)!
   rails-assets-jquery (= 2.2.1)!
@@ -1008,6 +1011,7 @@ DEPENDENCIES
   rails-assets-markdown-it (= 7.0.0)!
   rails-assets-markdown-it--markdown-it-for-inline (= 0.1.1)!
   rails-assets-markdown-it-diaspora-mention (= 1.0.0)!
+  rails-assets-markdown-it-emoji (= 1.2.0)!
   rails-assets-markdown-it-hashtag (= 0.4.0)!
   rails-assets-markdown-it-sanitizer (= 0.4.2)!
   rails-assets-markdown-it-sub (= 1.0.0)!

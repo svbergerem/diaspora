@@ -53,6 +53,14 @@
     md.use(subPlugin);
     var supPlugin = window.markdownitSup;
     md.use(supPlugin);
+
+    var emojiPlugin = window.markdownitEmoji;
+    md.use(emojiPlugin, {shortcuts: {}});
+    emojione.imageType = "svg";
+    emojione.sprites = true;
+    emojione.imagePathSVGSprites = "/assets/emojione/emojione.sprites.svg";
+    md.renderer.rules.emoji = function(token, idx) { return emojione.unicodeToImage(token[idx].content); };
+
     var sanitizerPlugin = window.markdownitSanitizer;
     md.use(sanitizerPlugin, {imageClass: "img-responsive"});
 
