@@ -278,9 +278,10 @@ group :test do
 
   # Cucumber (integration tests)
 
-  gem "capybara",           "2.7.1"
-  gem "database_cleaner",   "1.5.3"
-  gem "poltergeist",        "1.9.0"
+  gem "capybara",                    "2.7.1"
+  gem "database_cleaner",            "1.5.3"
+  gem "poltergeist",                 "1.9.0"
+  gem "capybara-slow_finder_errors", "0.1.4"
 
   gem "cucumber-api-steps", "0.13", require: false
   gem "json_spec", "1.1.4"
